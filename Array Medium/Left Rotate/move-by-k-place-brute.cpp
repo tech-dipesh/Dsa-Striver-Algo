@@ -15,9 +15,9 @@ int main(){
   }
 
 
-  for(int i=n-k, j=0;i<n;i++, j++){
-   arr[i]=first[j];
-  }
+//   for(int i=n-k, j=0;i<n;i++, j++){
+//    arr[i]=first[j];
+//   }
   
   //   without j variable:
   for(int i=n-k;i<n;i++){
