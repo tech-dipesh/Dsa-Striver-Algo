@@ -8,10 +8,10 @@ bool Lemonade(int arr[], int n){
 
     int i=0;
     while(i<n){
-      if(arr[i++]==5){
+      if(arr[i]==5){
         fives++;
       }
-      else if(arr[i++]==10){
+      else if(arr[i]==10){
         if(fives){
             tens++;
             fives--;
@@ -21,7 +21,7 @@ bool Lemonade(int arr[], int n){
           return false;
         }
       }
-      else if(arr[i++]==20){
+      else if(arr[i]==20){
           if(fives && tens){
               tens--;
               fives--;
@@ -33,6 +33,7 @@ bool Lemonade(int arr[], int n){
             return false;
           }
       }
+      i++;
     } 
 
     return true;
@@ -52,7 +53,8 @@ int main(){
 
 
 
-    int arr[]={5, 5, 5, 10, 20};
+    // int arr[]={5, 5, 5, 10, 20};
+    int arr[]={5,5,5,10,5,20,5,10,5,20};
     int a1[]={5, 5, 10, 20, 20};
     int n=sizeof(arr)/sizeof(arr[0]);
     int n1=sizeof(a1)/sizeof(a1[0]);
