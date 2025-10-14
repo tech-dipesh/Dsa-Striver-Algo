@@ -30,7 +30,7 @@ int main(){
   // use stack ds for storign end tme and check any overlap of new element start time, the first start will always be the smallest ending time.
   sort(arr, arr+n, Sort);
   int count=1, endingMeetingTime=arr[0].end;
-  queue<int>st;
+  queue<int>st; 
   int res[n];
   
   // st.push(arr[0].id);
