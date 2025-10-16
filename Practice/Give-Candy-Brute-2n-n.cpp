@@ -1,4 +1,5 @@
 // we're using teh concept of teh current and right concept fo improving the o(2n)
+// With the s..c wil be the  n.
 #include <iostream>
 #include <algorithm>
 using namespace std;
