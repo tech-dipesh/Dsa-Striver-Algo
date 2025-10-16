@@ -5,9 +5,8 @@
 #include <algorithm>
 using namespace std;
 int CandySlope(int candy [], int n){
-  int left[n], right[n], totalCandy=0;
-  int leftSum=0, rightSum=0;
-  int  leftCandy=1, rightCandy=1;
+  int left[n], right[n];
+  int totalCandy=0, leftCandy=1, rightCandy=1;
  
   left[0]=1, right[n-1]=1;
   

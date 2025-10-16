@@ -4,35 +4,32 @@
 using namespace std;
 int CandySlope(int candy [], int n){
   int array[n];
-  int  arrayCandy=1, totalCandy=0;
-  array[0]=1, array[n-1]=1;
-  int left=0, right=0;
+  int  arrayCandy=1;
+  array[0]=1;
   
   for(int i=1;i<n;i++){
-      if(candy[i]<=candy[i-1]){
-          array[i]=1;
-          arrayCandy=1;
+      if(candy[i]>candy[i-1]){
+        array[i]=array[i-1]+1;
       }
       else{
-          arrayCandy++;
-          array[i]=arrayCandy;
+        array[i]=1;
       }
   } 
 
-  int current
-  for(int i=n-2;i>=0;i--){
-    if(candy[i]>=candy[i+1]){
-      array[i]=1;
-      arrayCandy=1;
+  int current=1, right=1, sum=max(1, array[n-1]);
+  for(int i=n-2;i>=0;i--){ 
+    if(candy[i]>candy[i+1]){
+      current=right+1;
+      right=current;
     }
     else{
-      arrayCandy++;
-      array[i]=arrayCandy;
+      current=1;
     }
+    sum+=max(array[i], current);
   }
   
   
-  return totalCandy;
+  return sum;
 }
 int main(){
   int candy[] = {1, 2, 3 };
