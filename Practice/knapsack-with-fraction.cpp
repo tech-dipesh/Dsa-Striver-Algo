@@ -27,7 +27,7 @@ int main(){
    
 
     for(int i=0;i<n;i++){
-      arr[i].fraction=arr[i].profit/arr[i].weight;
+      arr[i].fraction=(float)arr[i].profit/arr[i].weight;
     }
 
     sort(arr, arr+n, Sort);
