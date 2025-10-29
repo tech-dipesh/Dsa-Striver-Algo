@@ -63,3 +63,15 @@ Lemonade Change: 10/07
 Sjf Cpu Scheduling: 10/07
 Jump Game: 10/07
 Jump Game II: 10/08
+
+Job Sequence
+
+N Meeting in one room: 10/13
+Non Interval overlap: 10/13
+Insert Interval: 10/14
+Minimum Railway platfomr change: 10/15
+Valid Parenthese String: 10/15
+
+Candy Brute Force: 10/15
+Candy Slope Greedy: 10/16
+
