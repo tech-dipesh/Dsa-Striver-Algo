@@ -27,7 +27,7 @@ void MergeTwoArray(int arr[], int low, int middle, int high){
 
 
     // Move back to original array:
-    for(int i=low;i<high;i++){
+    for(int i=low;i<=high;i++){
         arr[i]=newArray[i-low];
     }
 }
