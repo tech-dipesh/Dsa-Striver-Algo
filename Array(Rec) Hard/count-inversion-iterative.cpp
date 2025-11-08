@@ -12,7 +12,7 @@ vector<vector<int>>countInversion(int arr[], int n){
           vt.push_back(arr[j]);
       }
   }
-    if(!vt.empty()){
+    if(vt.size()){
       res.push_back(vt);
     }
   }
