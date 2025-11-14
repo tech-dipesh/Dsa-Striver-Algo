@@ -31,7 +31,7 @@ set<vector<int>>subSequence(int arr[], int n){
 }
 
 int main(){
-  int arr[]={1, 2, 2};
+  int arr[]={1, 2, 3};
   int n=sizeof(arr)/sizeof(arr[0]);
   int i=0;
   set<vector<int>>res=subSequence(arr, n);
