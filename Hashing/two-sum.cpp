@@ -15,7 +15,7 @@ vector<int>twoSum(int arr[], int n, int target){
     if(mp.find(sub)!=mp.end()){
       // example is: i become, 5 index: 2, and now mp[2], so mp index 2 have value of: 0 which is the indesx 
       int firsthashmapindex=mp[arr[sub]];
-      return {i, firsthashmapindex};
+      return {firsthashmapindex, i};
       // res.push_back(i);
       // res.push_back(nextvalue);
       // return res;
@@ -30,5 +30,8 @@ int main(){
   int arr[]={2, 8, 5, 3, 9, 11, 4};
   int target=7;
   int size=sizeof(arr)/sizeof(arr[0]);
-  cout<<twoSum(arr, size, target);
+  vector<int>res=twoSum(arr, size, target);
+  for(int i:res){
+    cout<<i<<" ";
+  }
 }
