@@ -18,8 +18,7 @@ for(int i=0;i<n;i++){
     astrict++;
   }
 }
-return abs(open-close)-  astrict==0?true:false;
- 
+return abs(open-close)-astrict==0?true:false;
 }
 
 
@@ -34,7 +33,11 @@ int n2=s2.size();
   
 string s3="(**(";
 int n3=s3.size();
+
+string s4="(((((*(()((((*((**(((()()*)()()()*((((**)())*)*)))))))(())(()))())((*()()(((()((()*(())*(()**)()(())";
+int n4=s4.size();
   
+
 if(Res(s, n)){
   cout<<"first is valid parenthese."<<endl;
 }
@@ -61,5 +64,12 @@ else{
   cout<<"Third is not valid parenthese."<<endl;
 }
 
+if(Res(s4, n4)){
+  cout<<"Frouth is valid";
+}
+else{
+  cout<<"Fourth is not a valid.";
+  
+}
 return 0;
 }
