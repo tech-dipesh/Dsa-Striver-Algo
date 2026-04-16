@@ -22,9 +22,8 @@ return;
 
 vector<vector<int>>Perm(vector<int>arr){
 	vector<vector<int>>res;
-	vector<int>vt;
-
 	Help(0, arr, res);
+	
 return res;
 }
 
