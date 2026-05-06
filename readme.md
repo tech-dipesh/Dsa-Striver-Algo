@@ -168,3 +168,81 @@ Stack Span Problem:  11/09 (both brute, and optimal with stack)
 Celebrity Probleem: 11/09
 
 
+# Least Recenty Used: 11/10: Extreme Data structure design.
+
+
+
+
+Linked List: 11/10 Major Revision:
+Basic 1ll
+
+
+11/11:
+Insertion and Deletion 8 Process: start, end, index, value.
+
+Doubly Linked List Introduction: 11/11
+
+
+Completed: Insert and delete 8 operation on doubly linked list: 11/12
+Reverse a Doubly Linked List: 11/12 (with stack and reverse links)
+
+
+# Add two Number: Leetcode 2: 11/13
+Odd Even Linked List: 11/13 (Brute Force with store on array with first odd and then even, Optimal is first take the odd value with jump to two pointer and take even with jump to two point)
+Sort 0s, 1s and 2s: 11/13 (for optimal just linking last value node to second first node. )
+
+Remove nth node from End of LL: 11/13 (tortoise and harare algorithm)
+# Reverse a Linked List:  4 approach: (array cration, stack creation, three pointer, recursive) (again check back recursive approach.)
+
+Check Palindrome or not Linked List: 11/14
+Add 1 Linked List: 11/14 
+# Find Intersection: 11/14, Brute(n^2), Hashmap, Find Size, connect link to one to another whenever they reach the end:
+
+
+@Easy Question For Me (Tortoise and hare Algo):
+Find Middle of Linked List: 11/15
+Detect a cycle in Loop: 11/15
+Length of the Cycle Loop: 11/15
+Delete Middle Node: 11/15 (Run withing single run remove)
+Starting Point of Loop LL: 11/15
+
+
+Find Pairs With Given sum Sorted Order: 11/15 (Almost same as two sum problem but with sorted order.)
+Remove Duplicates DLL: 11/15
+
+# Reverse Nodes in K Group Size: 11/16
+Rotate LL: 11/16
+Merge Two Sorted LL: 11/16
+Flatten a Linked List: First Complete this  (understand the concept of the child concept on the each linked list)
+Merge K Sorted List: 11/17 (minor tweaks for the optimal solution)
+
+# Sort LL: 11/16 (using the merge sort appraoch:)
+
+Clone a Linked List with the Random Pointer: 11/17 (only hashmap sufficient, optimal only fix the sc)
+
+Design Browser History: 11/17 (super simple)
+
+
+
+
+Tree: 11/17 Start basic introduction:
+
+Revise again Level order Traversal: 11/18
+
+
+Recursive Inorder, PreOrder, Postorder: 11/18
+Iterative level Order, Inorder, PreOrder, Postorder: 11/18
+
+PostOrder: 2 stack, reverse pre approach done
+
+
+One Pass Three Traversal: 11/19
+
+Solution:
+Max Depth, Recursive/Level Order: 11/19 
+
+
+Balanced Binary Tree: 11/19 (with n^2 and n with recursive i still don't fully understand but the intutition i've understood.)
+
+
+15. Maybe BBt can be the last:
