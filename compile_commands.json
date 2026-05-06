@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "C:/Users/DIPESH/Downloads/Study Material/Dsa-Striver-Algo",
+    "command": "g++ -std=c++17 -I. -c file.cpp",
+    "file": "file.cpp"
+  }
+]
